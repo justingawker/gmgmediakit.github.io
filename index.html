@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GMG Media Kit</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="assets/scripts/scroll.js"></script>
+	<script src="assets/scripts/slippry.min.js"></script>
+	<link rel="stylesheet" href="assets/scripts/slippry.css">
+	<link href="assets/scripts/style.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+	<link rel="apple-touch-icon" href="assets/images/touch-icon-ios_60.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/touch-icon-ios-76.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/touch-icon-ios-120.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/touch-icon-ios-152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/touch-icon-ios-180.png" />
+	<link rel="shortcut icon" sizes="196x196" href="assets/images/touch-icon-android.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico" />
+	
+	<!--<script type="text/javascript">
+     (function() {
+        var path = '//easy.myfonts.net/v2/js?sid=10259(font-family=Helvetica+Neue+55+Roman)&sid=10261(font-family=Helvetica+Neue+75+Bold)&sid=10265(font-family=Helvetica+Neue+65+Medium)&sid=10269(font-family=Helvetica+Neue+25+UltraLight)&key=2sTPxt44QY',
+            protocol = ('https:' == document.location.protocol ? 'https:' : 'http:'),
+            trial = document.createElement('script');
+        trial.type = 'text/javascript';
+        trial.async = true;
+        trial.src = protocol + path;
+        var head = document.getElementsByTagName("head")[0];
+        head.appendChild(trial);
+    	})();
+	</script>
+	<script type="text/javascript">
+	</script> -->
+	
+</head>
+
+<body>
+	<header class="page-head">
+	<div class="page-head__container">
+
+		<div id="mobile-nav" class="mobile-dropdown">
+			<a href="javascript:void(0)" class="mobile-closebtn" onclick="closeNav()">×</a>
+			<div class="mobile-dropdown-content">
+				<a href="#gmg" onclick="closeNav()">Home</a>
+				<a href="#audience" onclick="closeNav()">Audience</a>
+				<a href="#advertising" onclick="closeNav()">Advertising</a>
+				<a href="./about.html" onclick="closeNav()" target="_blank">About</a>
+				<a href="./resources.html" onclick="closeNav()" target="_blank">Resources</a>
+		  	</div>
+		</div>
+	
+		<script>
+			function openNav() {
+			    document.getElementById("mobile-nav").style.height = "100%";
+			}
+			
+			function closeNav() {
+			    document.getElementById("mobile-nav").style.height = "0%";
+			}
+		</script>
+		
+		<div class="nav-hamburger" type="button">
+			<img src="./assets/images/hamburger.svg" class="hamburger-icon" onclick="openNav()">
+		</div>
+		<div>
+			<a href="#gmg" class="gmg-logo-header">
+				<img src="./assets/images/gmg.svg">
+			</a>
+		</div>
+		<nav role="navigation" id="menu" class="nav-menu nav-menu-collapsed">
+			<ul class="site-nav nav">
+				<li><a href="#gmg">Home</a></li>
+				<li><a href="#audience">Audience</a></li>
+				<li><a href="#advertising">Advertising</a></li>
+				<li><a href="./about.html" target="_blank">About</a></li>
+				<li><a href="./resources.html" target="_blank">Resources</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+	<!-- GMG -->
+	
+	<section id="gmg" class="section">
+		<header class="container">
+			<h1>GMG</h1>
+		</header>
+		<article class="container">
+			<ul class="flex-wrapper gmg-brands">
+				<li>
+					<a href="http://gizmodo.com" target="_blank">
+					<img src="./assets/images/gizmodo.svg" class="gmg-brands-img"></a>
+					<!-- <p class="center-block">Lorem Ipsum Sit Dolar Amet.</p> -->
+				</li>
+				<li>
+					<a href="http://deadspin.com" target="_blank">
+					<img src="./assets/images/deadspin.svg" class="gmg-brands-img"></a>
+				</li>
+				<li>
+					<a href="http://jalopnik.com" target="_blank">
+					<img src="./assets/images/jalopnik.svg" class="gmg-brands-img"></a>
+				</li>
+				<li>
+					<a href="http://lifehacker.com" target="_blank">
+					<img src="./assets/images/lifehacker.svg" class="gmg-brands-img"></a>
+				</li>
+				<li>
+					<a href="http://kotaku.com" target="_blank">
+					<img src="./assets/images/kotaku.svg" class="gmg-brands-img"></a>
+				</li>
+				<li>
+					<a href="http://jezebel.com" target="_blank">
+					<img src="./assets/images/jezebel.svg" class="gmg-brands-img"></a>
+				</li>
+				<li>
+					<a href="http://gawker.com" target="_blank">
+					<img src="./assets/images/gawker.svg" class="gmg-brands-img"></a>
+				</li>
+			</ul>
+		</article>
+	</section>
+
+	<!-- END GMG -->
+	
+	<!-- AUDIENCE -->
+
+	<section id="audience" class="section">
+		<header class="container">
+			<h1>Reach</h1>
+		</header>
+		<article class="container">
+			<ul class="stats-home">
+				<li class="stat-home">
+					<img src="./assets/images/stat-home-uniques-2x.png" height="90" class="gmg-stats-image">
+				</li>
+				<li class="stat-home">
+					<img src="./assets/images/stat-home-ctr-2x.png" height="90" class="gmg-stats-image">
+				</li>
+			</ul>
+		</article> 
+	</section>
+	
+	<!-- END AUDIENCE -->
+	
+	<!-- ADVERTISING -->
+
+	<section id="advertising" class="section">
+		<header class="container">
+			<h1>What Advertising Looks Like With Us</h1>		
+			<h3>We Work With Brands</h3>
+			<p class="full-width-text">Our mission is to create, on behalf of brand advertisers, compelling stories and experiences that are specifically designed to appeal to our affluent, critically minded readership. As a result, the relationship between these advertisers and our readers is mutually beneficial.</p><br>
+			<h3>And We Succeed</h3>
+		</header>
+
+		<article class="container">
+			<ul class="stats-home">
+				<li class="stat-home">
+					<img src="./assets/images/stat-home-content-2x.png" height="75" class="advertising-stats-image">
+					<!-- <p>Lorem Ipsum Sit Dolar Amet.</p> -->
+				</li>
+				<li class="stat-home">
+					<img src="./assets/images/stat-home-engagement-2x.png"  height="75" class="advertising-stats-image">
+				</li>
+				<li class="stat-home">
+					<img src="./assets/images/stat-home-comments-2x.png"  height="75" class="advertising-stats-image">
+				</li>
+			</ul>
+		</article>
+				
+		<!-- SHOWCASE -->
+
+		<header class="container">
+			<h2>Campaign Showcase</h2>
+		</header>
+		<article class="container">
+			<ul class="flex-wrapper partner-brands">
+				
+			<li>
+				<a href="/showcase/coors.html" target="_blank">
+				<img src="./assets/images/showcase-coors.png" class="partner-brands-img" alt="Miller Coors"></a>
+			</li>
+			
+			<li>
+				<a href="/showcase/mazda.html" target="_blank">
+				<img src="./assets/images/showcase-mazda.png" class="partner-brands-img" alt="Mazda"></a>
+			</li>
+			
+			<li>
+				<a href="/showcase/wild-turkey.html" target="_blank">
+				<img src="./assets/images/showcase-wild-turkey.png" class="partner-brands-img" alt="Wild Turkey"></a>
+			</li>
+			
+			<li>
+				<a href="/showcase/fridays.html" target="_blank">
+				<img src="./assets/images/showcase-fridays.png" class="partner-brands-img" alt="TGI Fridays"></a>
+			</li>
+
+			<li>
+				<a href="/showcase/hulu.html" target="_blank">
+				<img src="./assets/images/showcase-hulu.png" class="partner-brands-img" alt="Hulu"></a>
+			</li>
+			
+			<li>
+				<a href="/showcase/gift-guide.html" target="_blank">
+				<img src="./assets/images/showcase-gift-guide.png" class="partner-brands-img" alt="Gift Guide"></a>
+			</li>
+				
+			</ul>
+		</article>
+
+		<!-- END SHOWCASE -->
+
+		<!-- ACCOLADES -->
+		
+		<header class="container">
+			<h2>Industry Accolades</h2>
+		</header>
+		
+		<script>
+			$(function() {
+				var carousel = $("#carousel").slippry({
+					 transition: 'horizontal',
+					 useCSS: true,
+					 speed: 1500,
+					 pause: 4000,
+					 auto: false,
+					 preload: 'visible',
+					 autoHover: false,
+					 control: 'overlay',
+					 adaptiveHeight: true
+				});
+				$('.prev').click(function () {
+					carousel.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					carousel.goToNextSlide();
+					return false;
+				});
+				$('.init').click(function () {
+					carousel = $("#carousel").slippry();
+					return false;
+				});
+			});
+		</script>
+
+		<article class="carousel-wrapper">
+			<article class="carousel-block-med">
+			<ul id="carousel">
+				<li><a href="#slide1"><img src="./assets/images/accolade-nativecreatives.png" alt=""></a></li>
+				<li><a href="#slide2"><img src="./assets/images/accolade-digiday1.png" alt=""></a></li>
+				<li><a href="#slide3"><img src="./assets/images/accolade-digiday2.png" alt=""></a></li>
+				<li><a href="#slide4"><img src="./assets/images/accolade-brandtale.png"  alt=""></a></li>
+				<li><a href="#slide5"><img src="./assets/images/accolade-adage.png" alt=""></a></li>
+			</ul>
+		</article>
+				
+		<!-- END ACCOLADES -->
+
+	</section>
+
+<!-- FOOTER -->
+
+<div id="footer">	
+	<div class="copyright">&copy; 2016 GMG</div>
+	<div class="gmg-logo-footer"></div>
+</div>	
+
+<!-- END FOOTER -->
+
+<!-- GOOGLE ANALYTICS
+
+<script type="text/javascript"> var gaJsHost = (("https:" ==	document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-142218-31"); pageTracker._trackPageview(); } catch(err){}</script>
+-->
+	
+<!-- END GA -->
+	
+</body>
+</html>
